@@ -17,7 +17,7 @@
     grid-template-rows: 50px 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5vw;
-    margin: 6vh 10vw 0 15vw;
+    margin: 6vh 12vw 0 12vw;
 }
 
 .title-cards {
