@@ -1,0 +1,56 @@
+.footer {
+
+    display: grid;
+    grid-template-areas: 'title title title'
+                         'item1 item2 item3';
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.footer-top {
+    padding-top: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    grid-area: title;
+}
+
+.footer-top::before {
+
+    content: '';
+    width: 400px;
+    height: 3px;
+    background: white;
+}
+
+.foter-item1{
+    grid-area: item1;
+}
+.foter-item2{
+    grid-area: item2;
+}
+.foter-item3{
+    grid-area: item3;
+}
+
+.footer-item1, .footer-item2, .footer-item3 {
+
+    justify-self: center;
+
+}
+
+.footer-subtitle {
+
+    margin-bottom: 10px;
+
+}
+
+ul > li , p{
+
+    list-style-type: none;
+    font-weight: bold;
+    font-size: o.8rem;
+}
