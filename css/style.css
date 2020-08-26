@@ -35,7 +35,8 @@ legend {
 
 legend:hover {
 
-    background-color: rgba(0, 0, 0, 0.644);    
+    background-color: rgba(0, 0, 0, 0.644);  
+    cursor: pointer;  
 
 }
 
