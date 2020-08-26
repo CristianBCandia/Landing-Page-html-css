@@ -6,7 +6,7 @@
 
 body {
 
-    background-color: rgb(252, 228, 95);
+    background-color: rgb(62, 93, 228);
     height: 2000px;
 }
 
@@ -18,6 +18,9 @@ body {
     background-size: 100vw;
     height: 100vh;
     width: 100vw;
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.582);
+    z-index: 10;
+    border-bottom: rgb(255, 255, 255) 10px solid;
 }
 
 legend {
