@@ -1,9 +1,12 @@
 .advantages {
 
-    display: flex;
-    height: 80vh;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-areas: '. adv-title .'
+                         'adv1 adv2 adv3';
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    height: 80vh;
     font-family:  'Montserrat', sans-serif; 
     font-weight: bold;
     font-size: 1.4rem;
@@ -11,27 +14,6 @@
 
 }
 
-.advantages::before {
-
-    content: '';
-    display: block;
-    width: 100px;
-    height: 2px;
-    background: #fff;
-
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
-
-}
-.advantages::after {
-
-    content: '';
-    display: block;
-    width: 100px;
-    height: 2px;
-    background: #fff;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
-
-}
 
 .adv-item {
 
@@ -45,6 +27,47 @@
 
     width: 130px;
     padding-bottom: 10px;
+
+}
+.adv-title {
+
+    font-size: 2.4rem;
+    grid-area: adv-title;
+    margin: 0 auto;
+
+}
+
+.adv1 {
+
+    grid-area: adv1;
+}
+.adv2 {
+
+    grid-area: adv2;
+}
+.adv3 {
+
+    grid-area: adv3;
+}
+
+.adv1::before, .adv2::before, .adv3::before{
+
+    content:'';
+    background: white;
+    width: 250px;
+    height: 2px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
+
+}
+.adv1::after, .adv2::after, .adv3::after{
+
+    content:'';
+    background: white;
+    width: 250px;
+    height: 2px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
 
 }
 

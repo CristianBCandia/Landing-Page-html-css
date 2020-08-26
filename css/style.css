@@ -6,8 +6,9 @@
 
 body {
 
-    background-color: rgb(62, 93, 228);
-    height: 2000px;
+    /* background-color: rgb(62, 93, 228); */
+    background-image: linear-gradient(#00d2ff, #3a7bd5);
+    background-repeat: no-repeat;
 }
 
 .top-section {
@@ -17,9 +18,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 100vh;
-    width: 100vw;
+    margin: 0 auto;
     box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.582);
-    z-index: 10;
     border-bottom: rgb(255, 255, 255) 10px solid;
 }
 
@@ -86,13 +86,13 @@ legend:hover {
     padding: 20px;
     font-size: 1.3rem;
     cursor: pointer;
-    transition: .5s;
+    transition: 1s;
 
 }
 
 .nav-header > ul > li:hover {
 
-    color: rgb(252, 228, 95);
-
+    text-decoration: underline;
+ 
 }
 
