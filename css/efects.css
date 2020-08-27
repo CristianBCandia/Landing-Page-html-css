@@ -1,0 +1,32 @@
+[data-anime] {
+    
+    opacity: 0;
+    
+    transition: .5s;
+    
+}
+
+#textAnimation[data-anime = "left"]{
+
+    transition: 1s;
+  
+}
+
+[data-anime="left"] {
+    
+    transform: translate3d(-50px, 0, 0);
+    
+}
+
+[data-anime="right"] {
+    
+    transform: translate3d(50px, 0, 0);
+    
+}
+
+[data-anime].animation {
+    
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    
+}

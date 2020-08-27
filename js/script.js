@@ -1,10 +1,30 @@
-let cardContainer = document.querySelector('.card-container')
-let card1 = document.querySelector('.adv1')
-let icons = document.querySelector('.advantages')
+const animateElement = document.querySelectorAll('[data-anime]')
+const animationClass = 'animation'
+const textFadein = document.querySelector('#textAnimation')
 
-window.onscroll = scroll;
+function textAnimation() {
 
-function scroll () {
- //alert("evento scroll detectado! " + window.pageXOffset + " " + window.pageYOffset);
- 
+    textFadein.classList.add(animationClass)
+
 }
+
+function animeScroll() {
+
+    const windowTop = window.pageYOffset + ((window.innerHeight * 3)/4)
+    
+    animateElement.forEach(elem => {
+
+        if((windowTop) > elem.offsetTop){
+
+            elem.classList.add(animationClass)
+            console.log('algo')
+
+        }
+
+    })
+
+}
+
+window.onscroll = animeScroll
+
+window.onload = textAnimation
