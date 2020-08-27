@@ -17,7 +17,11 @@ function animeScroll() {
         if((windowTop) > elem.offsetTop){
 
             elem.classList.add(animationClass)
-            console.log('algo')
+            
+        }else {
+            
+            elem.classList.remove(animationClass)
+
 
         }
 

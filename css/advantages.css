@@ -1,7 +1,7 @@
 .advantages {
 
     display: grid;
-    grid-template-areas: '. adv-title .'
+    grid-template-areas: 'adv-title adv-title adv-title'
                          'adv1 adv2 adv3';
     grid-template-rows: 1fr 4fr;
     grid-template-columns: 1fr 1fr 1fr;

@@ -28,9 +28,10 @@ body {
     display: flex;
     font-family: 'Montserrat', sans-serif; 
     color: white;
+    text-align: center;
     align-items: center;
     text-shadow: 0 0 10px black;
-    background-image: url("../img/house.jpg");
+    background-image: url("../img/lugares.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 99vw;
@@ -46,6 +47,7 @@ body {
     font-size: 3.4rem;
     font-weight: 300;
     align-self: center;
+    background: #07060588;
 
 }
 
