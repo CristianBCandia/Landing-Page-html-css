@@ -8,7 +8,13 @@ function textAnimation() {
 
 }
 
+
+
 function animeScroll() {
+    
+    
+    document.querySelector('.air-plane').classList.add('start-fly')
+
 
     const windowTop = window.pageYOffset + ((window.innerHeight * 3)/4)
     
