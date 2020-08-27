@@ -1,21 +1,20 @@
 .air-plane {
 
     position: absolute;
-    left: 50px;
-    transform: rotateY(180deg);
+   transform: rotateY(-180deg);
     opacity: 0;
 }
 
 .start-fly {
 
-    animation: fly 2.6s linear; 
+    animation: fly 3s ease-in; 
     
 }
 
 @keyframes fly {
 
-    from { left: 60vw; top: 50%; opacity: 0.8; }
-    to { left: -500px; top: 20%; opacity: 0.4;}
+    from { right: -510px; top: 60%; opacity: 1; }
+    to { right: 100vw; top: 20%; opacity: 1;}
    
 
 }
