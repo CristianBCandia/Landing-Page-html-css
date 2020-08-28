@@ -27,6 +27,11 @@
             </ul>
         </nav>
     </header>
+
+    <div class="receptor">
+
+    </div>
+    
     <div class="top-section">
         <h1 id="textAnimation" data-anime = "left">Escolha o seu destino</h1>
     </div>
