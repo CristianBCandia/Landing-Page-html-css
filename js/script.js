@@ -14,13 +14,14 @@ function animeScroll() {
     
     
     document.querySelector('.air-plane').classList.add('start-fly')
-
-
+    
+    
     const windowTop = window.pageYOffset + ((window.innerHeight * 3)/4)
     
     animateElement.forEach(elem => {
-
+        
         if((windowTop) > elem.offsetTop){
+           
 
             elem.classList.add(animationClass)
             

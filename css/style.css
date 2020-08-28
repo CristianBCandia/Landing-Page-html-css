@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
+:root {
+
+    --bg-after: #ffc93c;
+    --font-color: #111;
+}
+
 body {
 
     /* background-color: rgb(62, 93, 228); */
     background-image: linear-gradient(#00d2ff, #3a7bd5);
     background-repeat: no-repeat;
     overflow-x: hidden;
+    color: var(--font-color);
+    font-family: 'Montserrat'; 
 }
 
 .menu-content {
@@ -27,28 +35,30 @@ body {
 .top-section {
     
     display: flex;
-    font-family: 'Montserrat', sans-serif; 
-    color: white;
+    position: relative; 
+    color: var(--font-color);
     text-align: center;
     align-items: center;
     text-shadow: 0 0 10px black;
     background-image: url("../img/lugares.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 99vw;
-    height: 70vh;
+    background-size: 100%;
+    width: 100%;
+    height: 60vh;
     justify-content: center;
     margin: 0 auto;
     box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.568);
     border-bottom: #ffffffe8 4px solid;
 }
 
-.top-section > h1 {
 
+.top-section > h1 {
+    position: relative;
     font-size: 3.4rem;
-    font-weight: 300;
+    font-weight: 400;
     align-self: center;
-    background: #07060588;
+    background: #ceb9aa88;
 
 }
 
@@ -58,7 +68,7 @@ body {
     display: block;
     width: 66vw;
     height: 3px;
-    background: white;
+    background: var(--bg-after);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
  
     
@@ -69,38 +79,14 @@ body {
     display: block;
     width: 66vw;
     height: 3px;
-    background: white;
+    background:var(--bg-after);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
     
 }
 
 
-
-
-legend {
-
-    position: relative;
-    font-family: 'Montserrat', sans-serif; 
-    font-size: 2rem;
-    color: white;
-    align-self: center;
-    background-color: rgba(0, 0, 0, 0.322);
-    padding: 10px 30vw 10px 30vw;
-    margin: 0 auto;
-    transition: 1s;
-}
-
-legend:hover {
-
-    background-color: rgba(0, 0, 0, 0.644);  
-    cursor: pointer;  
-
-}
-
-
 .logo {
 
-    font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: 500;
     color: #444;
@@ -109,7 +95,6 @@ legend:hover {
 
 .nav-header {
 
-    font-family: 'Montserrat', sans-serif;
     color: #444;
 
 }
@@ -130,8 +115,7 @@ legend:hover {
     font-weight: 600;
     color: black;
     cursor: pointer;
-    transition: .4s;
-
+    transition: 0.4s;
 }
 
 .nav-header > ul > li:hover {

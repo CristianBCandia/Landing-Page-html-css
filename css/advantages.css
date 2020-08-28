@@ -7,11 +7,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     height: 80vh;
-    font-family:  'Montserrat', sans-serif; 
-    font-weight: bold;
-    font-size: 1.4rem;
-    color: black;
-    
+    font-family: 'Montserrat'; 
+
 }
 
 
@@ -31,7 +28,9 @@
 }
 .adv-title {
 
+
     font-size: 2.4rem;
+    font-weight: 400;
     grid-area: adv-title;
     margin: 0 auto;
 
@@ -40,6 +39,7 @@
 .adv-item > p {
 
     font-size: 1.2rem;
+    font-weight: 600;
 
 }
 
@@ -59,7 +59,7 @@
 .adv1::before, .adv2::before, .adv3::before{
 
     content:'';
-    background: white;
+    background: var(--bg-after);
     width: 250px;
     height: 2px;
     margin-bottom: 30px;
@@ -69,7 +69,7 @@
 .adv1::after, .adv2::after, .adv3::after{
 
     content:'';
-    background: white;
+    background: var(--bg-after);
     width: 250px;
     height: 2px;
     margin-top: 30px;
