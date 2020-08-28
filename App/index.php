@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/cards.css">
-    <link rel="stylesheet" type="text/css" href="css/advantages.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/efects.css">
-    <link rel="stylesheet" type="text/css" href="css/airPlane.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/cards.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/advantages.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/efects.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/airPlane.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <title>Horizontes</title>
@@ -31,47 +31,47 @@
         <h1 id="textAnimation" data-anime = "left">Descubra novos horizontes</h1>
     </div>
     <div class="background-card-container">
-        <img src="img/air-plane.png" class="air-plane">
+        <img src="assets/img/air-plane.png" class="air-plane">
         
     <section class="advantages">
         <h2 class="adv-title" data-anime = "right">Muitas vantagens</h2>
         <div class="adv-item adv1" data-anime = "left">
-            <img src="img/dinheiro.png">
+            <img src="assets/img/dinheiro.png">
             <p>Economize dinheiro</p>
         </div>
         <div class="adv-item adv2" data-anime = "left">
             
-            <img src="img/hotel.png">
+            <img src="assets/img/hotel.png">
             <p>Hospedagem 5 estrelas</p>
         </div>
         <div class="adv-item adv3"data-anime = "left">
-            <img src="img/camera.png">
+            <img src="assets/img/camera.png">
             <p>Momentos registrados</p>
         </div>
     </section>
 
     <div class="card-container">
 
-        <img src="img/nuvem.png" class="cloud1" data-anime = "right">
+        <img src="assets/img/nuvem.png" class="cloud1" data-anime = "right">
        
 
         <h2 class="title-cards" data-anime = "left">Escolha o seu destino</h2>
     
         <div class="card card1" data-anime = "right">
             <h3></h3>
-            <img src="img/grecia.jpg" alt="">
+            <img src="assets/img/grecia.jpg" alt="">
         </div>
         <div class="card card2" data-anime = "left">
             <h3></h3>
-            <img src="img/italia.jpg" alt="">
+            <img src="assets/img/italia.jpg" alt="">
         </div>
         <div class="card card3" data-anime = "right">
             <h3></h3>
-            <img src="img/judeia.jpg" alt="">
+            <img src="assets/img/judeia.jpg" alt="">
         </div>
         <div class="card card4" data-anime = "left">
             <h3></h3>
-            <img src="img/disney.jpg" alt="">
+            <img src="assets/img/disney.jpg" alt="">
         </div>
     
     </div>
@@ -120,6 +120,6 @@
 
 
 </footer>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
