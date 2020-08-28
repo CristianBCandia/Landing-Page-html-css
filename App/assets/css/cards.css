@@ -1,53 +1,37 @@
 
 
-.background-card-container {
-
-    width: 90vw;
-    margin: 0 auto;
-    padding: 20px 0 100px 0;
-    /* background-color: rgb(211, 72, 72); */
-    /* background-color: rgba(28, 168, 187, 0.534); */
-    
-}
-
 .card-container {
-
+    background-color:  #3a7bd525;
+    width: 80vw;
+    margin: 0 auto 50px auto;
     display: grid;
     grid-template-areas: 'title title'
                          'card1 card2'
                          'card3 card4';
-    grid-template-rows: 50px 1fr 1fr;
+    grid-template-rows: 1fr 5fr 5fr;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 8vw;
-    background-image:
+    padding: 10px 20px;
+   box-shadow: 0 0 30px rgba(0, 0, 0, 0.596);
 }
 
 .title-cards {
 
-    font-family: 'Bad Script', 'Montserrat'; 
+    font-family: 'Montserrat'; 
     text-align: center;
     font-size: 2.5rem;
     grid-area: title;
     font-weight: 400;
+    color: rgb(17, 15, 15);
+    margin: 10px auto;
+
 }
 
-/* .title-cards::after {
-
-    content: '';
-    display: block;
-    width: 420px;
-    height: 2px;
-    background:var(--bg-after);
-    margin: 10px auto;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
-    top: 5px;
-} */
 
 .card {
 
     display: flex;
     justify-content: center;
-    padding: 10px;
+    margin: 20px auto;
     align-items: baseline;
     background-color: #ffefc7;
     box-shadow: 0 0 10px rgba(51, 51, 51, 0.493);
@@ -79,7 +63,7 @@
 
 }
 
-.cloud1{
+/* .cloud1{
 
     position: absolute;
     opacity: 0.3;
@@ -87,7 +71,7 @@
     width: 900px;
     transition-delay: 1s;
 
-} 
+}  */
 
 /* .cloud1[data-anime].animation {
 

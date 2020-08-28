@@ -28,12 +28,13 @@
         </nav>
     </header>
     <div class="top-section">
-        <h1 id="textAnimation" data-anime = "left">Descubra novos horizontes</h1>
+        <h1 id="textAnimation" data-anime = "left">Escolha o seu destino</h1>
     </div>
-    <div class="background-card-container">
-        <img src="assets/img/air-plane.png" class="air-plane">
-        
+
+    
     <section class="advantages">
+        <img src="assets/img/air-plane.png" class="air-plane">
+
         <h2 class="adv-title" data-anime = "right">Muitas vantagens</h2>
         <div class="adv-item adv1" data-anime = "left">
             <img src="assets/img/dinheiro.png">
@@ -51,11 +52,8 @@
     </section>
 
     <div class="card-container">
-
-        <img src="assets/img/nuvem.png" class="cloud1" data-anime = "right">
        
-
-        <h2 class="title-cards" data-anime = "left">Escolha o seu destino</h2>
+        <h2 class="title-cards" data-anime = "left">Viva momentos inesquecíveis</h2>
     
         <div class="card card1" data-anime = "right">
             <h3></h3>
