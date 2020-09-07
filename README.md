@@ -3,8 +3,10 @@
 This is an example of a <strong>dynamic web site</strong>  for study purposes, 
 developed with <strong>Javascript</strong>, <strong>HTML5</strong> and <strong>CSS3</strong>.Clone the repository to study the code and make changes.
 
-## Layout images
-<img src="public/assets/img/header">
+## Layout 
+
+<img src="public/assets/img/img-site-github.jpg">
+
 
 ## How to Use the repository
 
