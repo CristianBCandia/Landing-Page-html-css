@@ -1,12 +1,13 @@
 # Dynamic web site
 
 This is an example of a <strong>dynamic web site</strong>  for study purposes, 
-developed with <strong>Javascript</strong>, <strong>HTML5</strong> and <strong>CSS3</strong>.Clone the repository to study the code and make changes.
+developed with <strong>Javascript</strong>, <strong>HTML5</strong> and <strong>CSS3</strong>.
+***Clone the repository to study the code and make changes.*** 	
 
 ## Layout 
 
 <img src="img/img-site-github.jpg">
-
+***
 
 ## How to Use the repository
 
