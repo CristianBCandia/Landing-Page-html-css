@@ -5,7 +5,7 @@ developed with <strong>Javascript</strong>, <strong>HTML5</strong> and <strong>C
 
 ## Layout 
 
-<img src="public/assets/img/img-site-github.jpg">
+<img src="img/img-site-github.jpg">
 
 
 ## How to Use the repository
@@ -25,7 +25,7 @@ know how many bits your processor has</a> ).
 
 ## Clone the repository 
 * Click on the green button, and then click on the folder icon as shown in the image below.
-<img src="public/assets/img/instructions-clone.jpg">
+<img src="img/instructions-clone.jpg">
 
 * Open your command prompt, go to the location where you want to place the repository, if necessary create a folder with the command "mkdir folder-name".
 * After creating the folder, type the command "cd folder-name-created" to access the folder you created, then type the command "git clone https: // hostname / YOUR-USERNAME / YOUR-REPOSITORY".
