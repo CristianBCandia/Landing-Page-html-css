@@ -15,9 +15,9 @@ To use the code and make changes to it, you will need a <strong>code editor</str
 
  ### Download VS Code (Windows)
 
-* Click on this link -> <a href="https://code.visualstudio.com/download">vscode</a> to be redirected to the download page.
+* Click on this link -> <a href="https://code.visualstudio.com/download" target="_blank">vscode</a> to be redirected to the download page.
 
-* Select the download option for windows according to the number of bits on your processor, 64-bit or 32-bit (<a href="https://www.techtudo.com.br/dicas-e-tutoriais/noticia/2014/08/como-saber-se-o-processador-do-seu-pc-windows-e-de-32-bits-ou-de-64-bits.html">
+* Select the download option for windows according to the number of bits on your processor, 64-bit or 32-bit (<a href="https://www.techtudo.com.br/dicas-e-tutoriais/noticia/2014/08/como-saber-se-o-processador-do-seu-pc-windows-e-de-32-bits-ou-de-64-bits.html"  target="_blank">
 know how many bits your processor has</a> ). 
 
 * Click the green "code" button as the follow image instructs.
